@@ -10,6 +10,6 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>题目1</div>
+  <div>promise改写</div>
 
 </template>
