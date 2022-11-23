@@ -3,5 +3,6 @@
 </script>
 
 <template>
-  <div>hello</div>
+  <div>题目2</div>
+
 </template>
