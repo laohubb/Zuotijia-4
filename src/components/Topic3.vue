@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    自适应最高高度
+    <div class="content">自适应最高高度</div>
     <div class="container">
       <div class="box-1">模块1</div>
       <div class="box-2">模块2</div>
@@ -19,6 +19,11 @@
   width: 600px;
   display: flex;
   background-color:#f2f2f2 ;
+
+}
+.content{
+  width: 200px;
+  margin: 30px auto;
 }
 .box-1{
   width: 120px;

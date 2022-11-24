@@ -10,6 +10,13 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>promise改写</div>
+  <div class="container">
+    <div>promise改写,见代码</div>
+  </div>
 
 </template>
+<style>
+.container{
+  display: flex;
+}
+</style>
