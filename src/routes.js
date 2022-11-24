@@ -8,7 +8,7 @@ import Topic5 from './components/Topic5.vue';
 
 
 export const routes=[
-    { path: '/', component: Home },
+    { path: '/', redirect: '/topic1' },
     { path: '/topic1', component: Topic1 },
     { path: '/topic2', component: Topic2 },
     { path: '/topic3', component: Topic3 },

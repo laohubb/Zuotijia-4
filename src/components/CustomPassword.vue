@@ -66,7 +66,7 @@ const click = () => {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: (230px/6);
+    width: calc(230px/6);
 
     &:focus {
       outline: none;
