@@ -7,7 +7,7 @@
     <router-link to="/topic2">垂直居中</router-link>
     <router-link to="/topic3">高度自适应</router-link>
     <router-link to="/topic4">表单组件</router-link>
-    <router-link to="/topic5">topic5</router-link>
+    <router-link to="/topic5">密码输入组件</router-link>
   </div>
 </div>
 <router-view></router-view>
@@ -24,7 +24,9 @@
   justify-content: space-around;
   color: darken(lightblue,20%);
   font-size: 20px;
+  width: 70%;
   a{
+    display: block;
     border: 1px solid lightblue;
     border-radius: 5px;
     padding: 5px;
